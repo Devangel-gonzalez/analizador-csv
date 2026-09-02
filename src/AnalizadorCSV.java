@@ -2,15 +2,21 @@ public class AnalizadorCSV {
 
     public static void main(String[] args) {
 
-        if (args.length == 0) {
+        if (args.length < 1) {
             System.out.println(
-                    "Uso: java AnalizadorCSV <archivo.csv>");
+                    "Uso: java AnalizadorCSV <archivo.csv> [separador]");
             return;
         }
 
         String archivo = args[0];
 
-        System.out.println(
-                "Archivo a procesar: " + archivo);
+        String separador = ",";
+
+        if (args.length >= 2) {
+            separador = args[1];
+        }
+
+        System.out.println("Archivo: " + archivo);
+        System.out.println("Separador: " + separador);
     }
 }
