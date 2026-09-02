@@ -19,3 +19,5 @@ Angel Israel Gonzalez Torres
 Sí, llegan como String.
 
 ---
+
+javac src/AnalizadorCSV.java
