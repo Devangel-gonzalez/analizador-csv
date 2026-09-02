@@ -1,6 +1,6 @@
 # Ambiente de ejecución en aplicaciones Java
 
-- Angel Israel Gonzalez Torres
+Angel Israel Gonzalez Torres
 
 ## Parte I – Argumentos de línea de comandos
 
@@ -12,19 +12,10 @@
 
 ### 2. ¿Qué ocurre si no se proporciona ningún argumento?
 
-- `args.length` vale `0` y no se imprime ningún argumento.
+`args.length` vale 0 y no se imprime ningún argumento.
 
-3. **¿Todos los argumentos se reciben como texto?**
-   - Sí. Siempre llegan como `String`.
+### 3. ¿Todos los argumentos se reciben como texto?
 
-### Código de la Parte I
+Sí, llegan como String.
 
-... (puedes pegar el código final de la Parte I)
-
-## Parte II – Variables de ambiente
-
-...
-
-## Parte III – Archivos de propiedades
-
-...
+---

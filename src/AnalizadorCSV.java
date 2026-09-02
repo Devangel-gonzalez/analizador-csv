@@ -2,11 +2,15 @@ public class AnalizadorCSV {
 
     public static void main(String[] args) {
 
-        System.out.println("Número de argumentos: " + args.length);
-
-        for (int i = 0; i < args.length; i++) {
+        if (args.length == 0) {
             System.out.println(
-                    "args[" + i + "] = " + args[i]);
+                    "Uso: java AnalizadorCSV <archivo.csv>");
+            return;
         }
+
+        String archivo = args[0];
+
+        System.out.println(
+                "Archivo a procesar: " + archivo);
     }
 }
