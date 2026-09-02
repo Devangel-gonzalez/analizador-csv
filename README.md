@@ -20,4 +20,27 @@ Sí, llegan como String.
 
 ---
 
+## Parte IV - Integración de los tres mecanismos
+
+Suponga que tenemos:
+En el código:
+separador = ","
+En application.properties:
+separador=;
+En una variable de ambiente:
+CSV_SEPARATOR=|
+Y en la línea de comandos:
+java AnalizadorCSV datos.csv ":"
+¿Qué valor debería utilizar el programa? Es necesario establecer una política de precedencia.
+
+**Mayor prioridad**
+Argumentos de línea de comandos
+↓
+Variables de ambiente
+↓
+Archivo properties
+↓
+Valor predeterminado
+**Menor prioridad**
+
 javac src/AnalizadorCSV.java
