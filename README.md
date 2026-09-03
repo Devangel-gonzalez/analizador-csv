@@ -35,11 +35,11 @@ java AnalizadorCSV datos.csv ":"
 
 **Mayor prioridad**
 Argumentos de línea de comandos
-↓
+          ↓
 Variables de ambiente
-↓
+          ↓
 Archivo properties
-↓
+          ↓
 Valor predeterminado
 **Menor prioridad**
 
